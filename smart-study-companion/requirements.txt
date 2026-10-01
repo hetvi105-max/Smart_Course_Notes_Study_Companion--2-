@@ -1,0 +1,23 @@
+# Web interface
+streamlit>=1.40.0
+
+# LangChain (RAG framework) and its integrations
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+langchain-google-genai>=2.0.0
+langchain-chroma>=0.2.0
+
+# Vector database
+chromadb>=0.5.0
+
+# PDF reading
+pypdf>=4.0.0
+
+# Charts and data handling
+plotly>=5.20.0
+pandas>=2.0.0
+
+# Reads the API key from the .env file
+python-dotenv>=1.0.0

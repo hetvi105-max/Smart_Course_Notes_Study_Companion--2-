@@ -1,0 +1,20 @@
+# Secrets - NEVER upload your real API key
+.env
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Local data created while using the app
+vectorstore/*
+!vectorstore/.gitkeep
+data/uploaded_notes/*
+!data/uploaded_notes/.gitkeep
+data/performance/*
+!data/performance/.gitkeep
+data/documents.json
+
+.vscode/
+.DS_Store
